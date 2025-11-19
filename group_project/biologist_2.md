@@ -10,3 +10,12 @@ experimentation, they induces food poisinong on the mice associated with a food 
 reactivate that memory. The github generates the compuational data with figures, tables, and brain-wide cell detection pipeline. 
 
 
+++ Lab Report #2: 
+Lanka, P., Rangaprakash, D., Dretsch, M.N., Katz, J.S., Denney, T.S. Jr., & Deshpande, G. Supervised machine learning for diagnostic classification from large-scale neuroimaging datasets. 
+Scientific Reports (2019). https://doi.org/10.1007/s11682-019-00191-8 --> pdf avaliable via fordham library 
+
+Website Link: https://www.nature.com/articles/s41586-025-08828-z 
+
+Github Link: https://github.com/pradlanka/malini
+
+Summary: This paper evaluates the generalizability of machine learning classifiers on resting-state fMRI data for Autism (N=988), ADHD (N=930), PTSD (N=87), and Alzheimer’s disease (N=132). The authors applied 18 classifiers and showed that overfitting is a major problem in heterogeneous datasets. To improve robustness, they proposed a consensus classifier that combines all 18 models, reducing sensitivity to age or site differences. Feature importance scores from all classifiers were aggregated to identify discriminative and robust functional connectivity patterns. The MALINI MATLAB toolbox implements these classifiers and the consensus model, enabling reproducible analyses and visualization of neuroimaging-based diagnostic predictions.
