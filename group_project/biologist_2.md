@@ -19,3 +19,17 @@ Website Link: https://www.nature.com/articles/s41586-025-08828-z
 Github Link: https://github.com/pradlanka/malini
 
 Summary: This paper evaluates the generalizability of machine learning classifiers on resting-state fMRI data for Autism (N=988), ADHD (N=930), PTSD (N=87), and Alzheimer’s disease (N=132). The authors applied 18 classifiers and showed that overfitting is a major problem in heterogeneous datasets. To improve robustness, they proposed a consensus classifier that combines all 18 models, reducing sensitivity to age or site differences. Feature importance scores from all classifiers were aggregated to identify discriminative and robust functional connectivity patterns. The MALINI MATLAB toolbox implements these classifiers and the consensus model, enabling reproducible analyses and visualization of neuroimaging-based diagnostic predictions.
+
+
+++ Lab Report #2:
+Dang, L. D., Phan, U. T. P., & Nguyen, N. T. H. GENA: A knowledge graph for nutrition and mental health. 
+Journal of Biomedical Informatics 145 (2023). https://doi.org/10.1016/j.jbi.2023.104460
+
+
+Website Link: https://www.sciencedirect.com/science/article/pii/S1532046423001818?via%3Dihub 
+
+Github Link: https://github.com/ddlinh/gena-db
+
+Summary: Summary: This paper introduces the knowledge graph named GENA (Graph of mEntal‑health and Nutrition Association) which encodes relationships between nutrition (foods, biochemicals) and mental health disorders, by mining PubMed abstracts. The authors applied a hybrid named‑entity recognition (NER) model followed by a deep syntax‑based relation‑extraction model to identify entities and binary relations from abstracts. 
+ The resulting graph contains 43,367 relations, about 94.04 % of which are novel (i.e., not present in existing food‑disease ontologies).
+ GENA is implemented using the Neo4j database to allow intuitive querying and exploration of how nutritional factors may relate to mental‑health conditions. The publicly released GitHub repository enables access to both code and data, supporting reproducibility and reuse of this resource.
