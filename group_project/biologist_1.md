@@ -60,4 +60,12 @@ No step-by-step workflow documentation
 No example outputs or validation results
 No information about software versions used
 
+Paper 3:
+Paper link: https://onlinelibrary.wiley.com/doi/epdf/10.1002/ajmg.b.32568
+Github link: https://github.com/PGC-PTSD-EWAS/QC_Pipeline?tab=readme-ov-file
 
+Summary:
+This paper resolves the evolutionary paradox of schizophrenia—why genetic risk persists despite the disorder reducing fitness—and the problem of missing heritability by proposing that schizophrenia is a trade-off of human evolution. The authors argue that the common genetic variants contributing to schizophrenia are not defects but are integral to the development of advanced human cognition, sociality, and language. These same genes, which were under positive selection, create a biological framework that is inherently vulnerable; when perturbed by environmental factors or combined with rare mutations, they can lead to the disorder. Consequently, the heritability isn't missing but is instead distributed across the very genes that make us human, meaning we cannot eliminate the genetic risk for schizophrenia without undermining the foundations of our unique cognitive abilities.
+
+Reproducibility:
+Reproducibility: Good - This repository has detailed R scripts, clear documentation, and step-by-step procedures for replicating their methylation analyses.
