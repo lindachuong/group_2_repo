@@ -26,7 +26,7 @@ Reproducibility: Ensure Python environment has the necessary packages and depend
 
 Computational Resources: Depending on the size of the dataset, the analysis may require significant computational resources.
 
-Paper 2
+PAPER 2:
 Paper link: https://pmc.ncbi.nlm.nih.gov/articles/PMC11700205/?utm_source=chatgpt.com
 Github link: https://github.com/evalukas/ptsd_cvd
 
@@ -60,7 +60,7 @@ No step-by-step workflow documentation
 No example outputs or validation results
 No information about software versions used
 
-Paper 3:
+PAPER 3:
 Paper link: https://onlinelibrary.wiley.com/doi/epdf/10.1002/ajmg.b.32568
 Github link: https://github.com/PGC-PTSD-EWAS/QC_Pipeline?tab=readme-ov-file
 
@@ -69,3 +69,23 @@ This paper resolves the evolutionary paradox of schizophrenia—why genetic risk
 
 Reproducibility:
 Reproducibility: Good - This repository has detailed R scripts, clear documentation, and step-by-step procedures for replicating their methylation analyses.
+
+PAPER 4:
+Github link:https://github.com/Zhiyi-Chen-github/Classifier-PTSD-COVID-19
+Paper link: https://www.sciencedirect.com/science/article/pii/S2352289521000862
+
+Summary: This paper provides a genetic explanation for the well-established clinical link between Post-Traumatic Stress Disorder (PTSD) and Cardiovascular Disease (CVD), demonstrating that the two conditions share a significant common genetic basis. Through an analysis of large-scale genetic datasets, the researchers found that the same genetic factors that increase a person's risk for PTSD also increase their risk for various cardiovascular conditions, including coronary artery disease and heart attack, as well as risk factors like Type 2 Diabetes. Crucially, the study indicates that this relationship is not primarily a direct causal one where PTSD causes CVD or vice-versa, but is instead largely due to pleiotropy, where an overlapping set of genes independently influences both disorders. These shared genes are involved in key biological pathways such as immune system inflammation and central nervous system stress response, which are implicated in the biology of both PTSD and atherosclerosis. The findings suggest that the high rate of heart disease in individuals with PTSD is not just a consequence of lifestyle or psychological stress, but is also rooted in a shared genetic predisposition, highlighting the need for integrated clinical care that views PTSD as a risk marker for physical health conditions and prioritizes early cardiovascular screening for this patient population.
+
+
+Reproducibility: 
+High Methodological Reproducibility: The repository provides the complete code for the entire machine learning pipeline, including data preprocessing, feature selection, model training (SVM, Random Forest, XGBoost), ensemble construction, and validation. This makes the methods fully transparent and reproducible.
+
+Significant Data Access Barriers: A major limitation is access to the original data. While scripts are included to process data, the key validation datasets from the UK Biobank and ABCD study are not publicly available. They require separate, approved applications, making full independent validation impossible for most.
+
+Substantial Computational Demand: Reproducing the analysis requires significant computational resources to process RNA-seq data and run the extensive, multi-step classifier training and bootstrapping procedures.
+
+Requires Manual Execution: The reproduction is not a "one-click" process. It requires a user to manually run each sequential step of the pipeline, setting up correct file paths and directories, which introduces a potential for error.
+
+Conclusion: In principle, the analysis is reproducible, but in practice, it is confined to researchers with both the necessary computational resources and approved access to the same controlled datasets.
+
+
