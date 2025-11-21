@@ -98,26 +98,57 @@ This study demonstrates a moderate to high level of reproducibility, supported b
 
 Strengths that support reproducibility:
 
-Open GitHub repository with code for pre-annotation and baseline models
+- Open GitHub repository with code for pre-annotation and baseline models
 
-Detailed annotation guidelines provided in supplementary materials
+- Detailed annotation guidelines provided in supplementary materials
 
-Clear description of dataset creation and annotation procedures
+- Clear description of dataset creation and annotation procedures
 
-Reported performance metrics (IAA, F1 scores) allow benchmarking
+- Reported performance metrics (IAA, F1 scores) allow benchmarking
 
-Transparent methodological workflow
+- Transparent methodological workflow
 
 
 Limitations that reduce reproducibility:
 
-Raw clinical text data are not publicly accessible due to privacy restrictions
+- Raw clinical text data are not publicly accessible due to privacy restrictions
 
-Requires institutional approval to access the same dataset
+- Requires institutional approval to access the same dataset
 
-Small dataset (200 notes) may lead to sensitivity to sample bias
+- Small dataset (200 notes) may lead to sensitivity to sample bias
 
-Data sourced from a single hospital network, limiting generalizability
+- Data sourced from a single hospital network, limiting generalizability
 
-Only part of the dataset was annotated by multiple annotators, reducing reliability checks
+- Only part of the dataset was annotated by multiple annotators, reducing reliability checks
 
+PAPER #5:
+Github link: https://github.com/bartala/ChatCBPTSD
+Paper link: https://www.nature.com/articles/s41598-024-54242-2
+
+Reproducibility: 
+
+The reproducibility of this study is fairly strong, especially because the authors provide a public GitHub repository (ChatCB-PTSD) containing the core code used for their analyses, including model scripts, example prompts, and environment setup files. This level of code transparency makes it much easier for other researchers to follow the computational workflow and rerun the modeling steps. The paper also clearly describes the methods, models used, and performance metrics, which further supports replication. However, full reproducibility is still limited by the lack of access to the raw childbirth narratives, which cannot be publicly released due to privacy concerns. The study also relies on proprietary OpenAI models (GPT-3.5-turbo and text-embedding-ada-002), meaning that exact replication depends on having API access and potentially matching model versions, which can change over time. Additionally, the dataset originates from a specific population and context, which limits generalizability. Overall, the study is quite transparent and methodologically accessible—especially with the released code—but constraints around data access and proprietary tools still prevent complete one-to-one replication.
+
+Strengths Supporting Reproducibility
+
+- Public GitHub repository with core code, scripts, prompts, and setup files
+
+- Clear descriptions of modeling approaches (zero-shot, few-shot, and embedding-based classifier)
+
+- Standard performance metrics (e.g., F1 score) for benchmarking
+
+- Open-access publication with detailed methods
+
+- Code allows others to recreate the pipeline with their own data
+
+Limitations
+
+- Raw childbirth narratives are not publicly available, limiting exact replication
+
+- Proprietary OpenAI models may change or require paid API access
+
+- Results depend on model versions that may not behave identically in the future
+
+- Dataset comes from a specific, self-selected population, limiting generalizability
+
+- Some preprocessing or annotation details may still require interpretation
