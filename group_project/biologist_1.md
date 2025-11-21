@@ -88,4 +88,36 @@ Requires Manual Execution: The reproduction is not a "one-click" process. It req
 
 Conclusion: In principle, the analysis is reproducible, but in practice, it is confined to researchers with both the necessary computational resources and approved access to the same controlled datasets.
 
+PAPER 5:
+Github link: https://github.com/TraumaML/annotation
+Paper link: https://www.nature.com/articles/s41398-025-03487-0
+
+Reproducibility:
+This study demonstrates a moderate to high level of reproducibility, supported by the availability of an open GitHub repository containing code for pre-annotation and baseline modeling, as well as detailed annotation guidelines provided in the supplementary materials. The authors thoroughly describe how the gold-standard dataset was created and report clear performance metrics such as inter-annotator agreement and model F1 scores, which allows other researchers to follow the methodological workflow. However, full reproducibility is limited by restricted access to the raw clinical text, which cannot be publicly released due to patient privacy regulations; as a result, researchers cannot reproduce the work on the exact same data without institutional approval. The dataset is also relatively small and sourced from a single healthcare system, which reduces generalizability and may make outcomes sensitive to sample characteristics. Furthermore, only a subset of clinical notes received dual annotation, introducing some uncertainty in annotation reliability. Overall, the study is transparent and methodologically well-documented, but constraints related to data access and dataset specificity make exact replication challenging.
+
+
+Strengths that support reproducibility:
+
+Open GitHub repository with code for pre-annotation and baseline models
+
+Detailed annotation guidelines provided in supplementary materials
+
+Clear description of dataset creation and annotation procedures
+
+Reported performance metrics (IAA, F1 scores) allow benchmarking
+
+Transparent methodological workflow
+
+
+Limitations that reduce reproducibility:
+
+Raw clinical text data are not publicly accessible due to privacy restrictions
+
+Requires institutional approval to access the same dataset
+
+Small dataset (200 notes) may lead to sensitivity to sample bias
+
+Data sourced from a single hospital network, limiting generalizability
+
+Only part of the dataset was annotated by multiple annotators, reducing reliability checks
 
