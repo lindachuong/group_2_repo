@@ -121,7 +121,7 @@ Limitations that reduce reproducibility:
 
 - Only part of the dataset was annotated by multiple annotators, reducing reliability checks
 
-PAPER #5:
+PAPER #6:
 Github link: https://github.com/bartala/ChatCBPTSD
 Paper link: https://www.nature.com/articles/s41598-024-54242-2
 
