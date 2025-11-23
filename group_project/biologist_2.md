@@ -59,5 +59,14 @@ Website Link: https://elifesciences.org/articles/88768
 Github Link: https://github.com/ThomasPSpargo/COLOC-reporter
 
 Summary: This study introduces a publicly-available pipeline to analyze genetic pleiotropy between neuropsychiatric and neurodegenerative disorders (including Alzheimer’s disease, ALS, frontotemporal dementia, Parkinson’s disease, schizophrenia) via local genetic correlation, fine-mapping, and colocalisation of GWAS summary statistics. The authors identified specific loci (notably within the HLA region) that are jointly implicated across disease pairs, providing insights into shared genetic architecture and paving the way for multi-trait genomic analyses. 
- 
+
+
+++ Lab Report #6:
+Verdonk, F., Cambriel, A., Hédou, J., Ganio, E., Bellan, G., et al. An immune signature of postoperative cognitive decline. International Journal of Surgery 110(12) (2024). https://doi.org/10.1097/JS9.0000000000002118
+
+Webiste LinK: https://journals.lww.com/international-journal-of-surgery/fulltext/2024/12000/an_immune_signature_of_postoperative_cognitive.32.aspx 
+
+Github Link: https://github.com/gregbellan/POCD
+
+Summary: Summary: This study investigated peripheral immune cell trajectories and proteomic changes in patients aged 60 and older undergoing major orthopedic surgery, to identify biomarkers predictive of Postoperative Cognitive Decline (POCD). Using serial blood draws at baseline, post-op day 1, day 7, and day 90, and applying single-cell mass cytometry and plasma proteomics, the authors identified cell-type and signaling-specific immune features differentiating those who developed POCD from those who did not. A predictive model built on preoperative immune features (one plasma protein + ten immune cell features) achieved AUC ≈ 0.80 in classification. The findings raise the prospect of personalized perioperative immune-monitoring to anticipate cognitive decline after surgery.
 
