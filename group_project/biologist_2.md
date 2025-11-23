@@ -50,3 +50,14 @@ Github Link: https://github.com/buptantEEG/MMASleepNet/
 Summary: This paper introduces the deep-learning architecture MMASleepNet, which uses EEG, EOG, and EMG signals in a multi‐branch feature extraction module plus an attention‐based fusion module (modal-wise squeeze-and-excitation + Transformer encoder) to improve automatic sleep staging. The model was tested on publicly available datasets (Sleep-EDF, ISRUC-Sleep) and outperformed prior methods in accuracy, F1-score and κ metrics. The GitHub repository provides the implementation, enabling reproducibility of multimodal electrophysiological sleep staging.
 
  
+++ Lab report #5:
+Spargo, T.P., Gilchrist, L., Hunt, G.P., Dobson, R.J.B., Proitsi, P., Al-Chalabi, A., Pain, O., & Iacoangeli, A. Statistical examination of shared loci in neuropsychiatric diseases using genome-wide association study summary statistics. eLife 12 (2023/24). https://doi.org/10.7554/eLife.88768.3
+
+
+Website Link: https://elifesciences.org/articles/88768
+
+Github Link: https://github.com/ThomasPSpargo/COLOC-reporter
+
+Summary: This study introduces a publicly-available pipeline to analyze genetic pleiotropy between neuropsychiatric and neurodegenerative disorders (including Alzheimer’s disease, ALS, frontotemporal dementia, Parkinson’s disease, schizophrenia) via local genetic correlation, fine-mapping, and colocalisation of GWAS summary statistics. The authors identified specific loci (notably within the HLA region) that are jointly implicated across disease pairs, providing insights into shared genetic architecture and paving the way for multi-trait genomic analyses. 
+ 
+
