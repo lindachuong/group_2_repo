@@ -193,7 +193,7 @@ Conclusion
 
 Not reproducible due to missing patient-level datasets.
 
-⭐ FINAL SUMMARY (Biologist 2 Papers)
+FINAL SUMMARY (Biologist 2 Papers)
 Paper	GitHub	Reproducible?	Reason
 Zimmerman et al.	cta	Partial	Missing raw imaging data
 Lanka et al.	malini	No	MATLAB-only repository
