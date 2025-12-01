@@ -29,3 +29,9 @@ Paper link: https://www.nature.com/articles/s41398-025-03487-0
 Github link: https://github.com/TraumaML/annotation
 Reproducibility Status:
 The TraumaML/annotation repository provides the code used for pre-annotation and baseline modeling of trauma-related linguistic features in psychiatric electronic health records (EHRs). According to the corresponding publication, de-identified annotated data (the “Trauma Enriched Psychiatric Corpus”) are only available via request through a controlled archive (not publicly included in the repository). As a result, while the pipeline is reproducible in terms of code, the lack of publicly included input data or processed output means it is not immediately verifiable or replicable without obtaining the data through the archive and re-running the full pipeline.
+
+PAPER 6
+Paper link: https://www.nature.com/articles/s41598-024-54242-2
+Github link: https://github.com/bartala/ChatCBPTSD
+Reproducibility Status:
+The ChatCBPTSD repository provides the full analysis code and a requirements list, meaning the computational pipeline is transparent and could be rerun. However, because the actual dataset (childbirth narratives/de-identified text data) is not publicly included and requires contacting the corresponding author for access, the analysis is only partially reproducible. In practice, one cannot independently reproduce or verify the published results without obtaining the underlying data.
