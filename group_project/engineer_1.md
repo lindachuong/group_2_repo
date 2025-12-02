@@ -19,8 +19,8 @@ Reproducibility Status:
 The QC_Pipeline repository provides the full code used for EWAS quality-control processing but does not include any raw methylation data, processed outputs, or example result files. Because the original cohort data are not publicly available, the pipeline is reproducible in principle, meaning the code can be run if the required iDAT files are obtained, but it is not immediately verifiable. Without access to the original datasets or the authors' QC-generated outputs, it is not possible to directly replicate or compare results.
 
 PAPER 4
-Paper link: https://onlinelibrary.wiley.com/doi/epdf/10.1002/ajmg.b.32568 
-Github link: https://github.com/PGC-PTSD-EWAS/QC_Pipeline?tab=readme-ov-file
+Paper link: https://www.sciencedirect.com/science/article/pii/S2352289521000862
+Github link:https://github.com/Zhiyi-Chen-github/Classifier-PTSD-COVID-19
 Reproducibility Status:
 This repository provides the MATLAB code used for PTSD/COVID-19 classification and includes the processed predictor matrix and a saved model file. Because the input .mat data are included, the neural network functions can be run and the model can be reproduced at the processed-data level. However, the original raw clinical dataset and preprocessing steps are not provided, and no ground-truth outputs are included for comparison. As a result, the project is partially reproducible since the code runs, but the analysis is not fully verifiable without access to the original raw data and feature-generation pipeline.
 
