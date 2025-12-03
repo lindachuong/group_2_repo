@@ -2,14 +2,13 @@ PAPER 1:
 Link: https://pmc.ncbi.nlm.nih.gov/articles/PMC5770765/
 GitHub link: https://github.com/BreenMS/PTSD-blood-transcriptome-mega-analysis?tab=readme-ov-file
 
-Summary: This study analyzed peripheral blood transcriptomes from 229 individuals with PTSD and 311 controls across five independent studies covering seven types of trauma. Key findings include:
-Trauma-Type Specific Signatures: Gene expression patterns differ depending on the type of trauma—interpersonal (IP) traumas show distinct profiles from combat-related traumas.
-Sex-Specific Responses:
-Men exposed to combat traumas showed downregulation of a wound-healing module.
-Men exposed to IP traumas showed upregulation of IL-12-mediated signaling.
-Women exposed to IP traumas showed upregulation of modules related to lipid metabolism and MAPK activity.
-Shared Molecular Pathways: Across all sexes and trauma types, there is a convergence on common immune pathways, including cytokine signaling, innate immunity, and type I interferon pathways.
-Overall, the study highlights both specificity (sex- and trauma-specific pathways) and convergence (shared immune dysregulation) in PTSD, suggesting potential targets for diagnostics and therapeutics.
+Summary: The study performed a large cross-cohort mega-analysis of blood transcriptome data to identify reliable gene expression changes associated with PTSD. By pooling data from multiple independent studies, the authors overcame inconsistencies seen in smaller datasets and revealed robust immune-related signatures that distinguish individuals with PTSD from controls. The results show widespread dysregulation of immune and inflammatory pathways, supporting the idea that PTSD involves systemic biological changes beyond the brain. These reproducible transcriptomic patterns provide potential biomarkers for PTSD diagnosis, risk assessment, and treatment monitoring, and demonstrate how large-scale, integrated analyses can enhance reliability in psychiatric genomics research.
+Highlighted genes:
+IFI44L — over-expressed in PTSD cases in combat-trauma subgroups. 
+
+GNG11 — under-expressed in PTSD cases (combat-related trauma). 
+
+IFIT3 — significantly differentially expressed across all mega-analytic comparisons (all trauma types / sexes), though direction of change varied by subgroup.
 
 How it connects to theme: This research exemplifies the growing integration of transcriptomics and machine learning in mental health research. By analyzing gene expression data across multiple independent cohorts and trauma types, the study demonstrates how genomic approaches can uncover shared biological pathways—particularly immune dysregulation—that may link PTSD to other conditions like cardiovascular disease and cognitive disorders. The multi-cohort design and focus on reproducible molecular signatures aligns with the broader trend of using computational methods to improve diagnostic accuracy and identify common biological mechanisms across seemingly distinct mental health and cognitive disorders. This convergent approach, identifying both shared immune pathways and context-specific responses, represents the kind of precision medicine framework that is advancing our understanding of PTSD alongside other complex neuropsychiatric conditions.
 
