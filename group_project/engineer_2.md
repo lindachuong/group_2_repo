@@ -90,4 +90,31 @@ Conclusion
 
 Mostly reproducible. Full graph exploration requires Neo4j locally, but the main NLP pipeline runs successfully in Colab.
 
+4. Zhang et al. (2022) — MMASleepNet Multimodal EEG Sleep Staging
+
+GitHub: https://github.com/buptantEEG/MMASleepNet
+
+Paper: https://www.frontiersin.org/articles/10.3389/fnins.2022.973761/full
+
+Goal of the code
+
+Deep-learning multimodal EEG/EOG/EMG classifier.
+
+Reproducibility Attempt
+
+Colab Steps:
+
+!git clone https://github.com/buptantEEG/MMASleepNet.git %cd MMASleepNet !pip install -r requirements.txt
+
+Outcome
+
+Installs correctly in Colab.
+
+Training scripts require large EEG datasets (Sleep-EDF, ISRUC), which are not included.
+
+Running the model without data fails.
+
+Conclusion
+
+Not fully reproducible, unless large datasets are downloaded manually. Model code itself appears functional.
 
