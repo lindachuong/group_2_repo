@@ -118,3 +118,35 @@ Conclusion
 
 Not fully reproducible, unless large datasets are downloaded manually. Model code itself appears functional.
 
+5. Spargo et al. (2023/24) — COLOC Reporter (GWAS Shared Loci)
+
+GitHub: https://github.com/ThomasPSpargo/COLOC-reporter
+
+Paper: https://elifesciences.org/articles/88768
+
+Goal of the code
+
+Pipeline for colocalization analysis across neurological GWAS datasets.
+
+Reproducibility Attempt
+
+Colab Steps:
+
+!git clone https://github.com/ThomasPSpargo/COLOC-reporter.git %cd COLOC-reporter !pip install -r requirements.txt
+
+Outcome
+
+Code installs but requires:
+
+large GWAS summary datasets,
+
+LDSC-specific data formats,
+
+HPC-level compute for fine-mapping.
+
+Scripts fail without these datasets.
+
+Conclusion
+
+Partially reproducible, but core analyses require data that are not included.
+
