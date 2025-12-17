@@ -60,4 +60,34 @@ Conclusion
 
 Not reproducible in a Python environment. Requires MATLAB and cannot be executed in Colab.
 
+3. Dang et al. (2023) — GENA Nutrition–Mental Health Knowledge Graph
+
+GitHub: https://github.com/ddlinh/gena-db
+
+Paper: https://www.sciencedirect.com/science/article/pii/S1532046423001818
+
+Goal of the code
+
+Build a knowledge graph by extracting nutritional–mental health relationships from PubMed abstracts.
+
+Reproducibility Attempt
+
+Colab Steps:
+
+!git clone https://github.com/ddlinh/gena-db.git %cd gena-db !pip install -r requirements.txt !python build_graph.py
+
+Outcome
+
+Repository cloned and installed successfully.
+
+Most components execute correctly (NER, relation extraction).
+
+Neo4j component requires a local database, not supported in Colab.
+
+However, intermediate steps (entity extraction + relation extraction) do run.
+
+Conclusion
+
+Mostly reproducible. Full graph exploration requires Neo4j locally, but the main NLP pipeline runs successfully in Colab.
+
 
