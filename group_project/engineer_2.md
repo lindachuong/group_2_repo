@@ -1,5 +1,4 @@
-Group 2 - Engineer 2 - Mohammed Uddin 
-engineer_2.md — Reproducibility Report (Biologist 2 Papers)
+Group 2 - Engineer 2 - Mohammed Uddin engineer_2.md — Reproducibility Report (Biologist 2 Papers)
 
 This report evaluates the reproducibility of six papers selected by Biologist 2, based solely on their publicly available GitHub repositories. For each paper, I attempted to run the code using Google Colab and standard Python tooling. Below are the implementation results, what did or didn’t run, and why.
 
@@ -17,9 +16,7 @@ Reproducibility Attempt
 
 Colab Steps:
 
-!git clone https://github.com/cazimmerman/cta.git
-%cd cta
-!pip install -r requirements.txt
+!git clone https://github.com/cazimmerman/cta.git %cd cta !pip install -r requirements.txt
 
 Outcome
 
@@ -31,10 +28,9 @@ Figure-generation scripts run, but core analysis fails due to missing data files
 
 Conclusion
 
-Partially reproducible.
-Code structure is transparent, but the main experiments cannot be run because the required raw data are unavailable.
+Partially reproducible. Code structure is transparent, but the main experiments cannot be run because the required raw data are unavailable.
 
-2. Lanka et al. (2019) — Machine Learning on Neuroimaging Data
+2.Lanka et al. (2019) — Machine Learning on Neuroimaging Data
 
 GitHub: https://github.com/pradlanka/malini
 
@@ -62,8 +58,7 @@ No Python equivalent provided.
 
 Conclusion
 
-Not reproducible in a Python environment.
-Requires MATLAB and cannot be executed in Colab.
+Not reproducible in a Python environment. Requires MATLAB and cannot be executed in Colab.
 
 3. Dang et al. (2023) — GENA Nutrition–Mental Health Knowledge Graph
 
@@ -79,10 +74,7 @@ Reproducibility Attempt
 
 Colab Steps:
 
-!git clone https://github.com/ddlinh/gena-db.git
-%cd gena-db
-!pip install -r requirements.txt
-!python build_graph.py
+!git clone https://github.com/ddlinh/gena-db.git %cd gena-db !pip install -r requirements.txt !python build_graph.py
 
 Outcome
 
@@ -96,8 +88,7 @@ However, intermediate steps (entity extraction + relation extraction) do run.
 
 Conclusion
 
-Mostly reproducible.
-Full graph exploration requires Neo4j locally, but the main NLP pipeline runs successfully in Colab.
+Mostly reproducible. Full graph exploration requires Neo4j locally, but the main NLP pipeline runs successfully in Colab.
 
 4. Zhang et al. (2022) — MMASleepNet Multimodal EEG Sleep Staging
 
@@ -113,9 +104,7 @@ Reproducibility Attempt
 
 Colab Steps:
 
-!git clone https://github.com/buptantEEG/MMASleepNet.git
-%cd MMASleepNet
-!pip install -r requirements.txt
+!git clone https://github.com/buptantEEG/MMASleepNet.git %cd MMASleepNet !pip install -r requirements.txt
 
 Outcome
 
@@ -127,8 +116,7 @@ Running the model without data fails.
 
 Conclusion
 
-Not fully reproducible, unless large datasets are downloaded manually.
-Model code itself appears functional.
+Not fully reproducible, unless large datasets are downloaded manually. Model code itself appears functional.
 
 5. Spargo et al. (2023/24) — COLOC Reporter (GWAS Shared Loci)
 
@@ -144,9 +132,7 @@ Reproducibility Attempt
 
 Colab Steps:
 
-!git clone https://github.com/ThomasPSpargo/COLOC-reporter.git
-%cd COLOC-reporter
-!pip install -r requirements.txt
+!git clone https://github.com/ThomasPSpargo/COLOC-reporter.git %cd COLOC-reporter !pip install -r requirements.txt
 
 Outcome
 
@@ -168,8 +154,7 @@ Partially reproducible, but core analyses require data that are not included.
 
 GitHub: https://github.com/gregbellan/POCD
 
-Paper: https://journals.lww.com/
-...
+Paper: https://journals.lww.com/ ...
 
 Goal of the code
 
@@ -193,14 +178,7 @@ Conclusion
 
 Not reproducible due to missing patient-level datasets.
 
-FINAL SUMMARY (Biologist 2 Papers)
-Paper	GitHub	Reproducible?	Reason
-Zimmerman et al.	cta	Partial	Missing raw imaging data
-Lanka et al.	malini	No	MATLAB-only repository
-Dang et al.	gena-db	Mostly Yes	NLP pipeline runs, Neo4j requires desktop
-Zhang et al.	MMASleepNet	No	Requires large datasets
-Spargo et al.	COLOC-reporter	Partial	Requires external GWAS datasets
-Verdonk et al.	POCD	No	Missing clinical datasets
-Final Conclusion
+FINAL SUMMARY (Biologist 2 Papers) Paper GitHub Reproducible? Reason Zimmerman et al. cta Partial Missing raw imaging data Lanka et al. malini No MATLAB-only repository Dang et al. gena-db Mostly Yes NLP pipeline runs, Neo4j requires desktop Zhang et al. MMASleepNet No Requires large datasets Spargo et al. COLOC-reporter Partial Requires external GWAS datasets Verdonk et al. POCD No Missing clinical datasets Final Conclusion
 
 Most repositories could not be fully reproduced due to data access barriers. The GENA knowledge graph (Dang et al.) was the only codebase that could be run meaningfully in Google Colab. All others were limited by missing data or software constraints.
+
