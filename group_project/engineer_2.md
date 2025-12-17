@@ -150,3 +150,35 @@ Conclusion
 
 Partially reproducible, but core analyses require data that are not included.
 
+6. Verdonk et al. (2024) — Immune Signature of Postoperative Cognitive Decline
+
+GitHub: https://github.com/gregbellan/POCD
+
+Paper: https://journals.lww.com/ ...
+
+Goal of the code
+
+Predict POCD using mass cytometry and proteomics.
+
+Reproducibility Attempt
+
+Colab Steps:
+
+!git clone https://github.com/gregbellan/POCD.git
+
+Outcome
+
+Code exists, but no data are included.
+
+Raw immune data cannot be distributed publicly.
+
+Scripts reference missing files → runs fail.
+
+Conclusion
+
+Not reproducible due to missing patient-level datasets.
+
+FINAL SUMMARY (Biologist 2 Papers) Paper GitHub Reproducible? Reason Zimmerman et al. cta Partial Missing raw imaging data Lanka et al. malini No MATLAB-only repository Dang et al. gena-db Mostly Yes NLP pipeline runs, Neo4j requires desktop Zhang et al. MMASleepNet No Requires large datasets Spargo et al. COLOC-reporter Partial Requires external GWAS datasets Verdonk et al. POCD No Missing clinical datasets Final Conclusion
+
+Most repositories could not be fully reproduced due to data access barriers. The GENA knowledge graph (Dang et al.) was the only codebase that could be run meaningfully in Google Colab. All others were limited by missing data or software constraints.
+
